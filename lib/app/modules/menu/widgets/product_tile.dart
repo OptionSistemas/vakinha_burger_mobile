@@ -7,7 +7,10 @@ import 'package:vakinha_burger_mobile/app/models/product_model.dart';
 class ProductTile extends StatelessWidget {
   final ProductModel product;
 
-  const ProductTile({Key? key, required this.product}) : super(key: key);
+  const ProductTile({
+    required this.product,
+    Key? key,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

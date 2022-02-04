@@ -13,11 +13,11 @@ class PlusMinusBox extends StatelessWidget {
   final bool calculateTotal;
 
   const PlusMinusBox({
-    Key? key,
     required this.quantity,
     required this.price,
     required this.minusCallback,
     required this.plusCallback,
+    Key? key,
     this.elevated = false,
     this.backgroundColor,
     this.label,

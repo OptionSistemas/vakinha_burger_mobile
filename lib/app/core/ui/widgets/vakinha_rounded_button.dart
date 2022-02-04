@@ -5,9 +5,9 @@ class VakinhaRoundedButton extends StatelessWidget {
   final String label;
   final double fontSize;
   const VakinhaRoundedButton(
-      {Key? key,
-      required this.onPressed,
+      {required this.onPressed,
       required this.label,
+      Key? key,
       this.fontSize = 25})
       : super(key: key);
 
